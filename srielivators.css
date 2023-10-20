@@ -1,0 +1,172 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1; /* Global styles */
+  background-color: aliceblue;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  background-image: url(https://img.freepik.com/free-vector/people-connecting-puzzle-pieces_23-2148074620.jpg?w=740&t=st=1688614136~exp=1688614736~hmac=0b3a09e888f2df8c65545b5b6cf871bec463a51d451b1998ef71f2ef4b42c1d7);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-variant: small-caps;
+  font-weight: 700;
+  color: black;
+}
+
+.hero p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffad33;
+}
+
+/* Services */
+#services {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.service {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.service p {
+  font-size: 16px;
+}
+
+/* About */
+#about {
+  padding: 50px 0;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Contact */
+#contact {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #ffad33;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
